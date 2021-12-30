@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainController {
     @GetMapping("/hi")
     public String hello(){
-        return  "Hello my first docker spring boot app";
+        return  "Hello my first docker spring boot app on jenkins";
     }
 }
